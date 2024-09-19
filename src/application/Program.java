@@ -14,7 +14,7 @@ public class Program {
 
 		Scanner sc = new Scanner(System.in);
 		
-		SellerDao sellerDao = DaoFactory.creatSellerDao();// implemetando a instaciação da interface.
+		SellerDao sellerDao = DaoFactory.createSellerDao();// implemetando a instaciação da interface.
 		
 		System.out.println("=== TEST 1: seller findById ===");
 		Seller seller = sellerDao.findById(3);
